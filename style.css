@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
@@ -99,7 +101,7 @@ h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 1.9rem;
+  /* margin-bottom: 1.9rem; */
 }
 .heading-underline {
   width: 3rem;
