@@ -20,7 +20,7 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: #dc3545 !important;
 }
 
 .navbar-brand img {
@@ -38,12 +38,13 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+  color: #eed91b;
 }
 
 /* Landing Page */
+
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/bg.jpg);
 }
 .caption {
   width: 100%;
@@ -56,15 +57,7 @@ body {
 }
 
 .caption h1 {
-  font-size: 3.8rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.8 rem black;
-  padding-bottom: 1rem;
-}
-
-.caption h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 0.1rem 0.1rem 0.5rem black;
   padding-bottom: 1.6rem;
 }
@@ -74,34 +67,24 @@ body {
   border-radius: 0;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
+  border-color: #dc3545;
+  background-color: #dc3545;
+}
+.btn:hover {
+  background-color: #c20606;
+  border-color: #c20606;
+  color: white;
 }
 
 /* Course Section */
 .narrow {
   width: 75%;
-  margin: 1.5rem auto;
+  margin: 4rem auto;
   padding-top: 2rem;
 }
 
 .narrow h1 {
   font-size: 2.4rem;
-}
-
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  padding: 0.6rem 1.2rem;
-  margin: 1rem;
-  color: white;
-  background-color: #1ebba3;
-  border-color: #1ebba3;
-}
-
-.btn-secondary:hover {
-  background-color: #189582;
-  border-color: #189582;
 }
 
 /* Features Section */
@@ -121,12 +104,12 @@ h3.heading {
 .heading-underline {
   width: 3rem;
   height: 0.2rem;
-  background-color: #1ebba3;
+  background-color: #dc3545;
   margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
-  color: #1ebba3;
+  color: #dc3545;
 }
 
 .feature h3 {
@@ -141,7 +124,7 @@ h3.heading {
 
 /* Resources Section */
 .fixed {
-  background-image: url("/img/apple.png");
+  background-image: url("/img/fix-bg.jpg");
   z-index: -1;
 }
 
@@ -165,13 +148,25 @@ h3.heading {
 }
 
 blockquote .svg-inline--fa {
-  color: #1ebba3;
+  color: #dc3545;
   margin: 1rem;
 }
 .clients-hr {
-  border-top: 0.05rem solid #1ebba3;
+  border-top: 0.05rem solid #dc3545;
 }
 
+/* Image Holder Section */
+
+.img-holder {
+  height: 200px;
+  background-color: #40474e;
+  width: 100%;
+}
+
+.img-holder img {
+  width: 100%;
+  height: 100%;
+}
 /* Contact Section */
 
 footer {
@@ -179,6 +174,7 @@ footer {
   color: white;
   padding: 2rem 0 2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 footer img {
@@ -196,7 +192,7 @@ footer svg.svg-inline--fa {
 }
 
 footer svg.svg-inline--fa:hover {
-  color: #1ebba3 !important;
+  color: #dc3545 !important;
 }
 
 hr.socket {
@@ -226,6 +222,11 @@ hr.socket {
 
   .narrow h1 {
     font-size: 1.5rem;
+  }
+
+  p.lead {
+    font-size: 0.6rem;
+    text-align: center;
   }
 
   .clients img {
